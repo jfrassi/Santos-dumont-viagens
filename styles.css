@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px; /* Ajuste conforme necessário */
+    margin: 0 auto;
+    min-height: 100vh; /* Altura mínima igual à altura da tela */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px; /* Ajuste conforme necessário */
+}
+
+.destino,
+.carrossel {
+    margin-bottom: 30px;
+}
+
+.destino img,
+.carrossel .slide img {
+    width: 100%;
+    max-width: 575px;
+    height: auto;
+}
+
+.destino div,
+.carrossel .slide {
+    flex: 0 0 calc(50% - 20px); /* 50% menos a margem entre os slides */
+    margin-right: 20px;
+    position: relative;
+}
+
+.destino h2,
+.texto-slide h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.destino p,
+.texto-slide p {
+    font-size: 1em;
+    color: #555;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Dropdown de Destinos */
+
+.destinos-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.destinos-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.destinos-dropdown-content li {
+    padding: 12px 16px;
+    display: block;
+}
+
+.destinos-dropdown:hover .destinos-dropdown-content {
+    display: block;
+}
+
+/* Página de Blog */
+
+.introducao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.texto-introducao {
+    max-width: 600px;
+}
+
+.texto-introducao h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.texto-introducao p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+.imagem-introducao img {
+    max-width: 100%;
+    height: auto;
+}
+
+.destinos-blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-destino {
+    display: flex;
+    flex-direction: column; /* Alteração para empilhar elementos verticalmente */
+    align-items: center; /* Centralizar elementos no eixo transversal (horizontal) */
+    margin-bottom: 20px;
+}
+
+.card-destino img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Espaçamento entre imagem e texto */
+    max-width: 380px; /* Largura máxima da imagem */
+}
+
+.texto-card-destino {
+    max-width: 200px; /* Largura máxima do texto */
+    text-align: center; /* Centralizar o texto */
+}
+
+.texto-card-destino h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.texto-card-destino p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* ... (seu código anterior) ... */
+
+/* Adicione essas regras CSS para a página de relatos */
+
+.relatos {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.relatos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.relato {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.relato img {
+    max-width: 200px; /* Ajuste conforme necessário */
+    height: auto;
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.texto-relato {
+    max-width: 600px; /* Ajuste conforme necessário */
+}
+
+.texto-relato p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* ... (seu código posterior) ... */
+
