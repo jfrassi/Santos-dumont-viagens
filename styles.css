@@ -75,6 +75,12 @@ footer {
     color: #555;
 }
 
+.imagens-destino {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .destinos-img {
     height: 369.4px;
     width: 575px;
