@@ -75,6 +75,11 @@ footer {
     color: #555;
 }
 
+.destino-img {
+    height: 369.4px;
+    width: 575px;
+}
+
 form {
     max-width: 600px;
     margin: 0 auto;
